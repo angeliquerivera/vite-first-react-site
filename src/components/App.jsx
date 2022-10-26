@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 import LatestProduct from "./LatestProduct";
 import MakeupCollections from "./MakeupCollections";
-import SocialMediaLinks from "./SocialMediaLinks";
+import FeaturedIn from "./FeaturedIn";
 
 export default function App() {
   return (
@@ -12,7 +12,7 @@ export default function App() {
       <LatestProduct />
       <MakeupCollections />
       <CreateYourOwnPackages />
-      <SocialMediaLinks />
+      <FeaturedIn />
       <Footer />
     </main>
   );

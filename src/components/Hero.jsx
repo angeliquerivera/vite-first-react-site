@@ -45,24 +45,6 @@ export default function Hero() {
           <h2 className="subtitle is-size-3">Subtitle</h2>
         </div>
       </div>
-
-      <div className="hero-foot">
-        <nav className="tabs is-boxed is-fullwidth">
-          <div className="container">
-            <ul>
-              <li className="is-active">
-                <a href="/#">Overview</a>
-              </li>
-              <li>
-                <a href="/#">Modifiers</a>
-              </li>
-              <li>
-                <a href="/#">Grid</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
     </section>
   );
 }
