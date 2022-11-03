@@ -57,7 +57,31 @@ git commit -m "feat(API): add first half of /edit/users PUT route logic" -m "Ref
 
 That last `-m` message will contain a refs section that points to one or as many issue references as the commit addresses.
 
-### Closing An Issue Within Commit Message
+### Linking a Pull Request to an Issue Within Commit Message
+
+[GitHub Blog Post](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
+
+In a similar way that we can reference issues in commit messages, we can link pull requests to issues using commit messages. We can do this by adding one of a couple of keywords to the commit message.
+
+Those keywords are:
+
+- close
+- closes
+- closed
+- fix
+- fixes
+- fixed
+- resolve
+- resolves
+- resolved
+
+You need one of these keywords per issue linked. Let's say you're done with all the API logic for issue `#21: Add new router API logic for /edit/users`; you can then link your issues in a similar manner to your issue reference messages.
+
+```shell
+git commit -m "feat(API): completed last of /edit/user API logic" -m "Resolves #21"
+```
+
+The issue will be closed when you merge the commits into your default branch.
 
 ### Merging Finished Issue/Ticket Branch
 
