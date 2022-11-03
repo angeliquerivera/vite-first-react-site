@@ -85,4 +85,40 @@ The issue will be closed when you merge the commits into your default branch.
 
 ### Merging Finished Issue/Ticket Branch
 
+Now that you're done working on the branch that resolves whatever issue you were working on, you can go ahead and merge your changes from your working branch to your main branch. There are two ways to do this:
+
+#### Via Pull Request (PR)
+
+- Create a PR in GitHub.
+- Choose a branch or commit to compare changes against.
+- Begin pull request by adding comments, choosing the appropriate reviewers/tags/milestones etc
+- Once the PR is approved, it'll be merged into the selected comparison base branch.
+
+#### Via Git Command Line Merge
+
+You start with a standard add/commit to finish off the work for that issue branch. Then, you can begin the merging process by merging your issue branch's work into the desired base branch.
+
+To merge `feat/21-new-edit-users-api` into `main`:
+
+```shell
+# MAKE SURE YOU'RE CURRENTLY ON THE RIGHT ISSUE BRANCH
+git merge main
+```
+
+From there, you'll be prompted to fix any merge conflicts that arise in the code, if there are any.
+
 ### Deleting Issue/Ticket Branch
+
+Once the branch has been merged, you can delete the issue branch from within the PR after it's been reviewed, approved, and merged, OR, by using the git command line.
+
+**Delete local branch**
+
+```shell
+git branch -d <LOCAL_BRANCH_NAME>
+```
+
+**Delete remote branch**
+
+```shell
+git push origin --delete <REMOTE_BRANCH_NAME>
+```
