@@ -101,8 +101,11 @@ You start with a standard add/commit to finish off the work for that issue branc
 To merge `feat/21-new-edit-users-api` into `main`:
 
 ```shell
-# MAKE SURE YOU'RE CURRENTLY ON THE RIGHT ISSUE BRANCH
-git merge main
+# Switch to main or other desired merge-into destination
+git checkout <MERGE_DESTINATION>
+
+# MAKE SURE YOU'RE CURRENTLY ON THE DESIRED MERGE-INTO BRANCH aka MAIN
+git merge <BRANCH_TO_MERGE_IN>
 ```
 
 From there, you'll be prompted to fix any merge conflicts that arise in the code, if there are any.
