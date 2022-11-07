@@ -6,7 +6,7 @@ export default function Hero() {
           <div className="container">
             <div className="navbar-brand">
               <a className="navbar-item" href="/#">
-                <img src="https://bulma.io/images/bulma-logo.png" alt="Logo" />
+                <img src="./assets/images/makeup-logo.png" alt="Logo" />
               </a>
               <span className="navbar-burger" data-target="navbarMenuHeroC">
                 <span></span>
