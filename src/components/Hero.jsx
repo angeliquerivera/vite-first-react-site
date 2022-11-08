@@ -1,42 +1,10 @@
+import Navbar from "./Navbar";
+
 export default function Hero() {
   return (
     <section className="hero is-fullheight">
       <div className="hero-head">
-        <header className="navbar">
-          <div className="container">
-            <div className="navbar-brand">
-              <a className="navbar-item" href="/#">
-                <img src="./assets/images/makeup-logo.png" alt="Logo" />
-              </a>
-              <span className="navbar-burger" data-target="navbarMenuHeroC">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
-            </div>
-            <div id="navbarMenuHeroC" className="navbar-menu">
-              <div className="navbar-end">
-                <a className="navbar-item is-active" href="/#">
-                  Home
-                </a>
-                <a className="navbar-item" href="/#">
-                  Examples
-                </a>
-                <a className="navbar-item" href="/#">
-                  Documentation
-                </a>
-                <span className="navbar-item">
-                  <a className="button is-success is-inverted" href="/#">
-                    <span className="icon">
-                      <i className="fab fa-github"></i>
-                    </span>
-                    <span>Download</span>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </header>
+        <Navbar />
       </div>
 
       <div className="hero-body">
