@@ -1,7 +1,10 @@
+import Navbar from "./Navbar";
+
 export default function Hero() {
   return (
     <section className="hero is-fullheight">
       <div className="hero-head">
+<<<<<<< HEAD
         <header className="navbar is-fixed-top">
           <div className="container">
             <div className="navbar-brand">
@@ -29,6 +32,9 @@ export default function Hero() {
             </div>
           </div>
         </header>
+=======
+        <Navbar />
+>>>>>>> feat/1-add-brand-logo-to-nav-bar
       </div>
 
       <div className="hero-body">
