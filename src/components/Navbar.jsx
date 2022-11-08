@@ -2,7 +2,7 @@ import brandLogo from "../assets/images/makeup-logo.png";
 
 export default function Navbar() {
   return (
-    <header className="navbar">
+    <header className="navbar is-fixed-top">
       <div className="container">
         <div className="navbar-brand">
           <a className="navbar-item" href="/#">
@@ -16,20 +16,15 @@ export default function Navbar() {
         </div>
         <div id="navbarMenuHeroC" className="navbar-menu">
           <div className="navbar-end">
-            <a className="navbar-item is-active" href="/#">
-              Home
+            <a className="navbar-item is-active" href="/eyes">
+              Eyes
             </a>
-            <a className="navbar-item" href="/#">
-              Examples
+            <a className="navbar-item" href="/lips">
+              Lips
             </a>
-            <a className="navbar-item" href="/#">
-              Documentation
+            <a className="navbar-item" href="/face">
+              Face
             </a>
-            <span className="navbar-item">
-              <a className="button is-success is-inverted" href="/#">
-                <span>Download</span>
-              </a>
-            </span>
           </div>
         </div>
       </div>
