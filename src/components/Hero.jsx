@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="hero is-fullheight">
       <div className="hero-head">
-        <header className="navbar">
+        <header className="navbar is-fixed-top">
           <div className="container">
             <div className="navbar-brand">
               <a className="navbar-item" href="/#">
@@ -25,14 +25,6 @@ export default function Hero() {
                 <a className="navbar-item" href="/face">
                   Face
                 </a>
-                <span className="navbar-item">
-                  <a className="button is-success is-inverted" href="/#">
-                    <span className="icon">
-                      <i className="fab fa-github"></i>
-                    </span>
-                    <span>Download</span>
-                  </a>
-                </span>
               </div>
             </div>
           </div>
