@@ -10,7 +10,9 @@ export default function Hero() {
       <div className="hero-body">
         <div className="container has-text-centered">
           <h1 className="title is-size-1">Title</h1>
-          <h2 className="subtitle is-size-3">Subtitle</h2>
+          <button className="button is-black is-medium is-active">
+            Explore
+          </button>
         </div>
       </div>
     </section>
