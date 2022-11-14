@@ -9,7 +9,7 @@ export default function Hero() {
 
       <div className="hero-body">
         <div className="container has-text-centered">
-          <h1 className="title is-size-1">Title</h1>
+          <h1 className="hero-title">Bougie Boutique</h1>
           <button className="button is-black is-medium is-active">
             Explore
           </button>
