@@ -9,23 +9,23 @@ export default function MakeupCollections() {
       <h1 className="title">Collections For Your Inner Diva</h1>
       <div className="columns">
         <div className="column">
-          <figure className="image is-4by3">
+          <figure className="image">
             <img src={collectionOne} />
           </figure>
           <div />
 
           <div className="column">
-            <figure className="image is-4by3">
+            <figure className="image">
               <img src={collectionTwo} />
             </figure>
           </div>
           <div className="column">
-            <figure className="image is-4by3">
+            <figure className="image">
               <img src={collectionThree} />
             </figure>
           </div>
           <div className="column">
-            <figure className="image is-4by3">
+            <figure className="image">
               <img src={collectionFour} />
             </figure>
           </div>
