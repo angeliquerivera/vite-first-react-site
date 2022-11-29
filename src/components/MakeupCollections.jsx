@@ -12,23 +12,22 @@ export default function MakeupCollections() {
           <figure className="image">
             <img src={collectionOne} />
           </figure>
-          <div />
+        </div>
 
-          <div className="column">
-            <figure className="image">
-              <img src={collectionTwo} />
-            </figure>
-          </div>
-          <div className="column">
-            <figure className="image">
-              <img src={collectionThree} />
-            </figure>
-          </div>
-          <div className="column">
-            <figure className="image">
-              <img src={collectionFour} />
-            </figure>
-          </div>
+        <div className="column">
+          <figure className="image">
+            <img src={collectionTwo} />
+          </figure>
+        </div>
+        <div className="column">
+          <figure className="image">
+            <img src={collectionThree} />
+          </figure>
+        </div>
+        <div className="column">
+          <figure className="image">
+            <img src={collectionFour} />
+          </figure>
         </div>
       </div>
     </section>
