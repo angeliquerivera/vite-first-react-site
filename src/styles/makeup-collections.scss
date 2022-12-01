@@ -2,6 +2,12 @@
   background-color: hotpink;
 }
 
+.collection-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .image {
   object-fit: cover;
 }
