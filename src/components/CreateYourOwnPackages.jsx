@@ -8,7 +8,7 @@ import Elegance from "../assets/images/elegance.jpg";
 export default function CreateYourOwnPackages() {
   return (
     <section>
-      <header className="section is-large create-package">
+      <header className="section is-small create-package">
         <h1 className="title">Create Your Own Lewk and Serve!</h1>
         <p className="subtitle">
           Mix and match from any line to create a unique and bold statement
