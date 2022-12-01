@@ -1,3 +1,19 @@
 .create-package {
   background: linear-gradient(to bottom, hotpink, lightpink);
 }
+
+.image {
+  object-fit: cover;
+}
+
+.plus-symbol {
+  display: flex;
+  flex-direction: row;
+  font-size: 100px;
+}
+
+.equal-sign {
+  display: flex;
+  flex-direction: row;
+  font-size: 100px;
+}
