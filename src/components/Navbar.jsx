@@ -4,7 +4,7 @@ import brandLogo from "../assets/images/makeup-logo.png";
 export default function Navbar() {
   const [isActive, setIsActive] = useState(false);
   return (
-    <header className="navbar is-fixed-top">
+    <header className="navbar">
       <div className="container">
         <div className="navbar-brand">
           <a className="navbar-item" href="/#">
