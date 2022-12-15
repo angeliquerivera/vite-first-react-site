@@ -1,7 +1,13 @@
-.icon {
+.icon-column {
+  display: flex;
+  row-gap: 30px;
   color: mediumvioletred;
 }
 
 ul li {
   list-style-type: none;
+}
+
+a {
+  color: mediumvioletred;
 }
