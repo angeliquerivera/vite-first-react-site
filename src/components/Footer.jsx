@@ -37,6 +37,40 @@ export default function Footer() {
               <FontAwesomeIcon icon={faYoutube} size="4x" />
             </span>
           </div>
+          <div className="column has-text-centered">
+            <ul>
+              <h3 className="title">Shop</h3>
+              <li>
+                <a href="/eyes">Eyes</a>
+              </li>
+              <li>
+                <a href="/lips">Lips</a>
+              </li>
+              <li>
+                <a href="/face">Face</a>
+              </li>
+            </ul>
+          </div>
+          <div className="column has-text-centered">
+            <ul>
+              <h3 className="title">About</h3>
+              <li>
+                <a href="/about">About Us</a>
+              </li>
+              <li>
+                <a href="/terms">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="/contact">Contact Us</a>
+              </li>
+              <li>
+                <a href="/shipping">Shipping & Returns</a>
+              </li>
+              <li>
+                <a href="/faq">FAQ</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
