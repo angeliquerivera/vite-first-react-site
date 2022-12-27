@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     VitePluginFonts({
       google: {
-        families: ["Source Sans Pro"],
+        families: ["Dancing Script"],
       },
     }),
   ],
