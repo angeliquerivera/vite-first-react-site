@@ -49,16 +49,6 @@ export default function CreateYourOwnPackages() {
             </figure>
             <h1>Lip Color</h1>
           </div>
-
-          <div className="column is-narrow">
-            <span className="plus-symbol">+</span>
-          </div>
-          <div className="column">
-            <figure className="image">
-              <img src={packageItemFive} />
-            </figure>
-            <h1>Brushes</h1>
-          </div>
           <div className="column is-narrow">
             <span className="equal-sign">=</span>
           </div>
